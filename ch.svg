@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.14928528"
-     inkscape:cx="1872.2543"
-     inkscape:cy="2140.1976"
+     inkscape:cx="780.38505"
+     inkscape:cy="1785.1727"
      inkscape:window-width="1920"
      inkscape:window-height="1015"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="Layer_4"
      showguides="false" /><defs
      id="defs2" /><g
      inkscape:label="Layer 1"
@@ -43,8 +43,8 @@
        d="m 1074.5105,1104.4362 146.7532,-192.72572 225.2875,129.93352 9.2144,-194.79353 110.2795,35.74205 -6.4526,-214.06269 -318.4779,-30.63803 -234.5273,112.94041 -49.02676,131.47885 z"
        id="path3552"
        inkscape:label="gr" /><path
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.92375;stroke-dasharray:none;stroke-opacity:1"
-       d="m 880.64354,888.01121 -1.07717,-176.15608 55.45915,-33.07367 108.09798,31.35094 -6.2321,82.79935 -79.77429,104.93251 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.04568;stroke-dasharray:none;stroke-opacity:1"
+       d="m 866.64113,887.95287 -1.16957,-176.053 60.21644,-33.05432 117.3706,31.3326 -6.7667,82.7509 -86.6173,104.8711 z"
        id="path1921"
        inkscape:label="ur" /><path
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.92375;stroke-dasharray:none;stroke-opacity:1"
@@ -67,8 +67,8 @@
        d="M 321.95925,954.66899 430.83652,1216.6856 678.58043,1192.2037 884.90467,896.26859 Z"
        id="path233"
        inkscape:label="vs" /><path
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.92375;stroke-dasharray:none;stroke-opacity:1"
-       d="m 1032.1866,758.51952 40.0046,-193.64328 82.7237,10.3512 17.5412,123.25702 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.61096;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1040.3272,735.85428 36.0964,-171.14799 74.642,9.14872 15.8276,108.93841 z"
        id="path1918"
        inkscape:label="gl" /><rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.92375;stroke-dasharray:none;stroke-opacity:1"
@@ -83,12 +83,12 @@
        d="m 357.90209,591.17254 218.479,-96.28329 -56.10605,-55.28432 -119.98144,-38.63909 -36.57633,68.58488 -23.71885,103.30579 z"
        id="path1883"
        inkscape:label="ju" /><path
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.92375;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1088.5649,863.55279 1064.1363,1244.4656 886.17341,895.59116 Z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.07203;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1097.1548,863.68531 1070.1669,1244.3356 873.55871,895.7016 Z"
        id="path1701"
        inkscape:label="ti" /><path
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.90627;stroke-dasharray:none;stroke-opacity:1"
-       d="M 103.21588,983.26727 318.09097,953.54223 464.69815,940.71368 471.83306,891.95559 325.77792,840.34099 204.50606,735.913 Z"
+       d="M 102.68645,983.26727 317.56154,953.54223 464.16872,940.71368 471.30363,891.95559 325.24849,840.34099 203.97663,735.913 Z"
        id="path1703"
        inkscape:label="vd" /><rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.78862;stroke-dasharray:none;stroke-opacity:1"
@@ -144,7 +144,7 @@
        width="101.16857"
        height="107.55009"
        x="718.34686"
-       y="-877.68274"
+       y="-871.32971"
        inkscape:label="ow"
        transform="rotate(90)" /><path
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.92375;stroke-dasharray:none;stroke-opacity:1"
@@ -189,11 +189,7 @@
        transform="rotate(90)" /><g
        id="Layer_4"
        transform="matrix(1.5479172,0,0,1.5463887,-74.130207,-1043.9402)">
-	<path
-   class="st1"
-   d="M 56.9,933.1 H 273 c 1.7,0 3,1.3 3,3 v 26 c 0,1.7 -1.3,3 -3,3 H 56.9 c -1.7,0 -3,-1.3 -3,-3 v -26 c 0,-1.6 1.4,-3 3,-3 z"
-   id="path2146"
-   style="fill:#ffffff" />
+	
 	<path
    class="st2"
    d="M 56.9,870 H 273 c 1.7,0 3,1.3 3,3 v 26 c 0,1.7 -1.3,3 -3,3 H 56.9 c -1.7,0 -3,-1.3 -3,-3 v -26 c 0,-1.6 1.4,-3 3,-3 z"
@@ -218,7 +214,11 @@
    class="st6"
    d="M 56.9,902 H 273 c 1.7,0 3,1.3 3,3 v 26 c 0,1.7 -1.3,3 -3,3 H 56.9 c -1.7,0 -3,-1.3 -3,-3 v -26 c 0,-1.6 1.4,-3 3,-3 z"
    id="path2156"
-   style="fill:#d6beff" />
+   style="fill:#d6beff" /><path
+   class="st6"
+   d="M 57.673878,932.3188 H 273.77363 c 1.7,0 3,1.3 3,3 v 26 c 0,1.7 -1.3,3 -3,3 H 57.673878 c -1.699998,0 -2.999998,-1.3 -2.999998,-3 v -26 c 0,-1.6 1.4,-3 2.999998,-3 z"
+   id="path2156-3"
+   style="fill:#ffffff;fill-opacity:1" />
 	<path
    class="st7"
    d="M 56.9,806 H 273 c 1.7,0 3,1.3 3,3 v 26 c 0,1.7 -1.3,3 -3,3 H 56.9 c -1.7,0 -3,-1.3 -3,-3 v -26 c 0,-1.6 1.4,-3 3,-3 z"
@@ -271,9 +271,10 @@
    style="font-size:18px;font-family:ArialRoundedMTBold">Visited here</text>
 	<path
    class="st9"
-   d="m 65.4,877.8 h 117.9 c 1.7,0 3,1.3 3,3 v 10.6 c 0,1.7 -1.3,3 -3,3 H 65.4 c -1.7,0 -3,-1.3 -3,-3 v -10.6 c 0,-1.6 1.4,-3 3,-3 z"
+   d="m 65.4,877.8 c -58.9964952,44.99993 -543.21432,284.6653 117.9,0 1.56153,-0.67237 3,1.3 3,3 v 10.6 c 0,1.7 -1.3,3 -3,3 H 65.4 c -1.7,0 -3,-1.3 -3,-3 v -10.6 c 0,-1.6 4.2724,-3.97053 3,-3 z"
    id="path2178"
-   style="fill:none" />
+   style="fill:none"
+   sodipodi:nodetypes="sssssssss" />
 	<text
    transform="translate(62.4503,892.6222)"
    class="st10 st11"
@@ -281,9 +282,10 @@
    style="font-size:18px;font-family:ArialRoundedMTBold">Passed here</text>
 	<path
    class="st9"
-   d="m 65.4,909.8 h 165.5 c 1.7,0 3,1.3 3,3 v 10.6 c 0,1.7 -1.3,3 -3,3 H 65.4 c -1.7,0 -3,-1.3 -3,-3 v -10.6 c 0,-1.6 1.4,-3 3,-3 z"
+   d="m 65.4,909.8 h 165.5 c 1.7,0 3,1.3 3,3 v 10.6 c 0,1.7 -4.29621,1.89953 -3,3 159.02958,135.0153 171.00481,177.3371 -165.5,0 -1.5041,-0.79266 -3,-1.3 -3,-3 v -10.6 c 0,-1.6 1.4,-3 3,-3 z"
    id="path2182"
-   style="fill:none" />
+   style="fill:none"
+   sodipodi:nodetypes="sssssssss" />
 	<text
    transform="translate(62.4503,924.6222)"
    class="st10 st11"
@@ -291,9 +293,10 @@
    style="font-size:18px;font-family:ArialRoundedMTBold">Want to be here</text>
 	<path
    class="st9"
-   d="m 65.8,940.1 h 165.5 c 1.7,0 3,1.3 3,3 v 10.6 c 0,1.7 -1.3,3 -3,3 H 65.8 c -1.7,0 -3,-1.3 -3,-3 v -10.6 c 0,-1.6 1.4,-3 3,-3 z"
+   d="m 65.8,940.1 c 593.85617,665.0609 1221.8529,1372.2714 165.5,0 -1.0373,-1.34752 3,1.3 3,3 v 10.6 c 0,1.7 -1.3,3 -3,3 H 65.8 c -1.7,0 -3,-1.3 -3,-3 v -10.6 c 0,-1.6 1.93403,-4.19378 3,-3 z"
    id="path2186"
-   style="fill:none" />
+   style="fill:none"
+   sodipodi:nodetypes="sssssssss" />
 	<text
    transform="translate(62.8503,954.9222)"
    class="st10 st11"

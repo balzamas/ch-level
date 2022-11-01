@@ -20,32 +20,22 @@ const messages = {
             pt: 'pt | pts',
         },
         canton_name: {
-            ai: 'Appenzell Innerrhoden',
-            ar: 'Appenzell Ausserrhoden',
-            ag: 'Aargeu',
-            be: 'Berne',
-            bl: 'Basel Land',
-            bs: 'Basel City',
-            fr: 'Fribourg',
-            ge: 'Geneva',
-            gl: 'Glarus',
-            gr: 'Grisons',
-            ju: 'Jura',
-            lu: 'Lucerne',
-            ne: 'Neuchatel',
-            nw: 'Nidwalden',
-            ow: 'Obwalden',
-            sg: 'St. Gallen',
-            sh: 'Schaffhausen',
-            so: 'Solothurn',
-            sz: 'Schwyz',
-            tg: 'Thurgovia',
-            ti: 'Ticino',
-            ur: 'Uri',
-            vd: 'Vaud',
-            vs: 'Valais',
-            zg: 'Zug',
-            zh: 'Zurich',
+            bw: 'Baden-Württemberg',
+            by: 'Bavaria',
+            bb: 'Brandenburg',
+            be: 'Berlin',
+            hb: 'Bremen',
+            hh: 'Hamburg',
+            he: 'Hessen',
+            mv: 'Mecklenburh-Vorpommern',
+            ni: 'Niedersachsen',
+            nw: 'Nordrhein-Westfalen',
+            rp: 'Rheinland-Pfalz',
+            sl: 'Saarland',
+            sn: 'Sachsen',
+            st: 'Sachsen-Anhalt',
+            sh: 'Schleswig-Holstein',
+            th: 'Thüringen',
         }
     }
 }
@@ -79,7 +69,7 @@ const 全关闭 = _=>{
 const 数据 = {};
 const 获取所有省元素们 = _=>[...地区.children];
 const 获取所有省等级们 = _=>获取所有省元素们().map(el=>+el.getAttribute('level')||0);
-const 本地存储等级们钥匙 = 'ch-levels';
+const 本地存储等级们钥匙 = 'de-levels';
 const 保存等级们 = _=>{
     let 本地存储value = ""
     for (const 省元素 of 获取所有省元素们()) {
@@ -90,11 +80,11 @@ const 保存等级们 = _=>{
     }
     本地存储.setItem(本地存储等级们钥匙,本地存储value);
 };
-const 省等级们正则 = /^[\d|-]{26}$/;
+const 省等级们正则 = /^[\d|-]{16}$/;
 const 获取等级们并生效 = _=>{
     let 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
     console.log(等级们字串.length)
-    if(/^[\d|-]{25}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
+    if(/^[\d|-]{15}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
     console.log(等级们字串)
     if(!省等级们正则.test(等级们字串)) return;
     const 等级们 = 等级们字串.split('');
@@ -157,8 +147,8 @@ const 计分 = _=>{
     const 分 = 获取所有省等级们().reduce((全, 当前) => {
         return +全 + 当前;
       }, 0);
-    Total.innerHTML = `Switzerland Level ${分}`;
-    webtitle.innerHTML = `Switzerland Level ${分}`;
+    Total.innerHTML = `Germany Level ${分}`;
+    webtitle.innerHTML = `Germany Level ${分}`;
 }
 添加事件监控(设置等级,'click',e=>{
     e.stopPropagation();
@@ -342,4 +332,3 @@ const 保存图像 = _=>{
 添加事件监控(输出图像.querySelector('a'),'click',_=>{
     输出图像.style.display = 'none'
 });
-

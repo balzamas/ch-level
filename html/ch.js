@@ -90,11 +90,11 @@ const 保存等级们 = _=>{
     }
     本地存储.setItem(本地存储等级们钥匙,本地存储value);
 };
-const 省等级们正则 = /^[\d|-]{30}$/;
+const 省等级们正则 = /^[\d|-]{26}$/;
 const 获取等级们并生效 = _=>{
     let 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
     console.log(等级们字串.length)
-    if(/^[\d|-]{29}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
+    if(/^[\d|-]{25}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
     console.log(等级们字串)
     if(!省等级们正则.test(等级们字串)) return;
     const 等级们 = 等级们字串.split('');

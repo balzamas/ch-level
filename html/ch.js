@@ -22,7 +22,7 @@ const messages = {
         canton_name: {
             ai: 'Appenzell Innerrhoden',
             ar: 'Appenzell Ausserrhoden',
-            ag: 'Aargeu',
+            ag: 'Aargau',
             be: 'Berne',
             bl: 'Basel Land',
             bs: 'Basel City',
